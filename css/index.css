@@ -1,0 +1,164 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    background: #c2cdda;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 5px 50px;
+}
+
+header{
+    border-bottom: rgb(233, 205, 48) 3px solid;
+    background: rgb(51, 83, 126);
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;   
+}
+header h1, h2{
+    color: white;
+    text-align: center;
+    padding: 0 4px 0 4px;
+}
+    
+header ul{
+    padding: 0;
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 20px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+header nav{
+    background-color:rgb(47 94 137);
+    width: 100%;
+    margin-top: 3.2px;
+    line-height:1.7;
+}
+header nav a:visited{
+    color: aqua;
+}
+header nav a:hover{
+    color:rgb(126, 51, 107);
+}
+
+.brand{
+    float: left;
+    display: inline;
+    padding: 0 0 0 0;
+}
+header li{
+    float:right;
+    display:inline;
+    padding: 0 30px 0 30px;;
+}
+
+/* .high a{
+    color:rgb(153, 53, 128);
+} */
+header .high a, header .brand a{
+    color:rgb(224, 67, 28);
+    font-weight: bolder;
+}
+
+#two p{
+    background-color:rgb(197, 209, 208);
+    color: white;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    text-align:center;
+}
+/* main ul li img{
+    display: inline;
+    align-content: left;
+} */
+img{
+    max-width: 100%;
+    margin: 4%;
+
+}
+#design{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#design li{
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    color: #bdc3c7;
+    margin-top: -20px;
+}
+#design p{
+    text-align: center;
+    padding: 0;
+    margin-top: -20px;
+}
+section div{
+    margin: 5%;
+    padding: 0;
+    max-width: 90%;
+    background-color: #a5a6b8;
+    line-height: 50px;
+    color: white;
+    margin-top: -25px;
+}
+section div h2{
+    background-color:rgb(126, 51, 107);
+}
+section h1{
+    text-align: center;
+    color: rgb(54, 29, 199);
+}
+section article div p a{
+    text-align: center;
+    color: white;
+}
+section article div p{
+    margin-left: 40px;
+    padding-top: 10px;
+}
+section p{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    color: rgb(14, 13, 13);
+}
+section div p{
+    text-decoration:solid;
+    text-transform: uppercase;
+    text-emphasis-color: white;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-top: -30px;
+    
+}
+section form{
+    display: inline;
+    float: right;
+}
+section form input[type="email"], section form button{
+    float: right;
+    margin-top: -60px;
+    margin-right: 118px;
+    line-height: 20px;
+    color: white;
+    text-transform: uppercase;
+    display: inline;
+}
+footer{
+    text-align: center;
+}
+

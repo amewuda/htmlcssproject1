@@ -1,0 +1,351 @@
+
+@media screen and (max-width: 997px){
+    
+    body{
+        background-color: navy;
+    }
+    section form input[type="email"]{
+        display: block;
+        float: right;
+        margin-top: -19px;
+        margin-right: 118px;
+        line-height: 20px;
+        color: white;
+        text-transform: uppercase;
+        
+    }
+    section form button{
+        display: block;
+        float: right;
+        margin-top: -2px;
+        margin-right: 177px;
+        line-height: 20px;
+        color: rgb(122, 41, 105);
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    img{
+        max-width: 100%;
+        margin: 4%;
+    
+    }
+    #design{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    #design li{
+        float: left;
+        width: 45%;
+        margin: 2.5%;
+        color: #bdc3c7;
+        margin-top: -20px;
+    }
+    #design p{
+        text-align: center;
+        padding: 0;
+        margin-top: -20px;
+    }
+    section form input[type="email"]{
+        display: block;
+        float: right;
+        margin-top: -19px;
+        margin-right: 256px;
+        line-height: 20px;
+        color: white;
+        text-transform: uppercase;
+        
+    }
+    section form button{
+        display: block;
+        float: right;
+        margin-top: 6px;
+        margin-right: -115px;
+        line-height: 20px;
+        color: rgb(122, 41, 105);
+        text-transform: uppercase;
+        font-weight: bold;
+        
+    }
+}
+/* MAX-WIDTH OF 768px */
+/* @media screen and (max-width:768px){
+    section form input[type="email"]{
+        display: block;
+        float: right;
+        margin-top: -19px;
+        margin-right: 221px;
+        line-height: 20px;
+        color: white;
+        text-transform: uppercase;
+        
+    }
+    section form button{
+        display: block;
+        float: none;
+        margin-top: 0;
+        margin-right: 287px;
+        line-height: 20px;
+        color: rgb(122, 41, 105);
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+} */
+/* MAX WIDTH OF 668px */
+@media screen and (max-width: 668px){
+
+    body{
+        background-color: rgb(47, 116, 47);
+    }
+    header ul{
+        padding: 0;
+        margin: 0;
+    }
+    header nav{
+        float: right;
+        margin-top: 20px;
+    }
+    header a{
+        color: rgb(70, 111, 187);
+        text-decoration: none;
+        font-size: 16px;
+    }
+    header nav{
+        background-color:rgb(69, 169, 216);
+        width: 100%;
+        margin-top: 3.2px;
+        line-height:1.7;
+    }
+    header nav a:visited{
+        color: rgb(201, 243, 12);
+    }
+    header nav a:hover{
+        color:rgb(231, 19, 30);
+    }
+    
+    .brand{
+        float: left;
+        display: inline;
+        padding: 0 0 0 0;
+    }
+    header li{
+        float:right;
+        display:inline;
+        padding: 0 20px 0 20px;;
+    }
+    
+    /* .high a{
+        color:rgb(153, 53, 128);
+    } */
+    header .high a, header .brand a{
+        color:rgb(129, 31, 153);
+        font-weight: bolder;
+    }
+    img{
+        max-width: 100%;
+    }
+    #design{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-top: -12px;
+    }
+    #design li{
+        float: left;
+        width: 100%;
+        margin: 2%;
+        color: #bdc3c7;
+        margin-top: -20px;
+    }
+    #design a{
+        color: #fff;
+    }
+    #design p{
+        text-align: center;
+        padding: 0;
+        margin-top: -20px;
+        color: #bdc3c7;
+    }
+    main ul li img{
+        display:block;
+        width: 100%;
+    }
+    /* section form{
+        display: inline;
+        float: right;
+    } */
+    section form input[type="email"]{
+        display: block;
+        float: right;
+        margin-top: -19px;
+        margin-right: 118px;
+        line-height: 20px;
+        color: white;
+        text-transform: uppercase;
+        
+    }
+    section form button{
+        display: block;
+        float: right;
+        margin-top: -2px;
+        margin-right: 177px;
+        line-height: 20px;
+        color: rgb(122, 41, 105);
+        text-transform: uppercase;
+        font-weight: bold;
+        
+    }
+    
+}
+/* //max width of 434px */
+@media screen and (max-width:435px){
+    body{
+        background-color: rgb(180, 211, 180);
+    }
+    img{
+        max-width: 100%;
+    }
+    #design{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-top: -12px;
+    }
+    #design li{
+        float: left;
+        width: 100%;
+        margin: 2%;
+        color: #bdc3c7;
+        margin-top: -20px;
+    }
+    #design a{
+        color: rgb(51, 91, 179);
+    }
+    #design p{
+        text-align: center;
+        padding: 0;
+        margin-top: -14px;
+        color: #568bbd;
+    }
+    section form input[type="email"]{
+        display: block;
+        width: 100%;
+        float: right;
+        margin-top: -19px;
+        margin-right: 17px;
+        line-height: 20px;
+        color: white;
+        text-transform: uppercase;
+        
+    }
+    section form button{
+        display: inline;
+        width: 100%;
+        margin-top: -1px;
+        margin-right: 2px;
+        line-height: 20px;
+        color: rgb(122, 41, 105);
+        text-transform: uppercase;
+        font-weight: bold;
+        
+    }
+}
+
+/* MAX-WIDTH OF 374px */
+@media screen and (max-width:374px){
+    body{
+        background-color:rgb(88, 68, 85);
+    }
+    img{
+        max-width: 100%;
+    }
+    #design{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-top: -12px;
+    }
+    #design li{
+        float: left;
+        width: 100%;
+        margin: 2%;
+        color: #bdc3c7;
+        margin-top: -20px;
+    }
+    #design a{
+        color: rgb(127, 62, 129);
+    }
+    #design p{
+        text-align: center;
+        padding: 0;
+        margin-top: -14px;
+        color: #568bbd;
+    }
+    header ul{
+        padding: 0;
+        margin: 0;
+    }
+    header nav{
+        float: right;
+        margin-top: 20px;
+    }
+    header a{
+        color: rgb(70, 111, 187);
+        text-decoration: none;
+        font-size: 16px;
+    }
+    header nav{
+        background-color:rgb(69, 169, 216);
+        width: 100%;
+        margin-top: 3.2px;
+        line-height:1.7;
+    }
+    header nav a:visited{
+        color: rgb(201, 243, 12);
+    }
+    header nav a:hover{
+        color:rgb(231, 19, 30);
+    }
+    
+    .brand{
+        float: left;
+        display: inline;
+        padding: 0 0 0 0;
+    }
+    header li{
+        float:right;
+        display:inline;
+        padding: 0 15px 0 15px;;
+    }
+    
+    /* .high a{
+        color:rgb(153, 53, 128);
+    } */
+    header .high a, header .brand a{
+        color:rgb(129, 31, 153);
+        font-weight: bolder;
+    }
+    section form input[type="email"]{
+        display: block;
+        width: 100%;
+        float: right;
+        margin-top: -19px;
+        margin-right: 0;
+        line-height: 20px;
+        color: white;
+        text-transform: uppercase;
+        
+    }
+    section form button{
+        display: inline;
+        width: 100%;
+        margin-top: -1px;
+        margin-right: 4px;
+        line-height: 20px;
+        color: rgb(122, 41, 105);
+        text-transform: uppercase;
+        font-weight: bold;
+        
+    }
+}
